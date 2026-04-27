@@ -1,0 +1,28 @@
+ git config --global --list
+ git config --global user.name "Keerthana"
+git config --global user.email "keerthana.27csa@licet.ac.in"
+git init 
+git status 
+git add . 
+git commit -m "First commit"
+git log   
+git branch -M main
+git remote add origin https://github.com/Keerthana-1307/Sample.git
+git push -u origin main
+
+git checkout -b dev
+git add .
+ git commit -m "New branch"
+  git push origin dev
+
+   git checkout main
+    git add . 
+    git commit -m "Main branch"
+    git push origin main  
+
+     git merge dev
+
+     git add file.txt
+     git add . 
+     git commit -m "Resolved"   
+      git push origin main 
